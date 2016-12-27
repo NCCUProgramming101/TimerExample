@@ -13,9 +13,10 @@ class Coakroach {
     if (iTimer.arrived()){
       x = random(0,640 - w );
       y = random(0,480 - h);
+      println("Coackroach Randomed!! : " + x + " " + y + "\n");
     }
     
-    println("Coackroach : " + x + " " + y );
+    
   }
   
 }
